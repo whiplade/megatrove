@@ -1,0 +1,19 @@
+/* CartPage.js */
+.cart-page {
+  padding: 20px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.total-cost {
+  font-size: 18px;
+  font-weight: bold;
+}

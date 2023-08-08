@@ -1,0 +1,183 @@
+body{
+  background-color: #fdfdfd; 
+  overflow-x: hidden; 
+}
+
+.item-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 25px; 
+}
+
+.item {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.item:hover {
+  background-color: #edeeec;
+}
+
+.item img {
+  width: 100%;
+  height: 200px;
+  object-fit: scale-down;
+}
+.item p {
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.item {
+  position: relative; 
+}
+
+.add-to-cart {
+  position: absolute; 
+  bottom: 10px; 
+  left: 10px; 
+  
+}
+
+.add-to-cart button {
+  
+  padding: 8px 20px;
+  background-color:#91e95e;
+  color: black ;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer; 
+  margin-bottom: 10px; 
+  margin-top: 10px;
+  
+}
+.add-to-cart button:hover{
+  background-color:#65d822;
+}
+
+.show-details button {
+  min-height: 40px; 
+  margin-bottom: 40px; 
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none; 
+}
+.show-details button:hover{
+  background-color:whitesmoke;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #071101;
+  padding: 40px 20px;
+  color: #fff;
+}
+
+.footer-column,
+.help-center,
+.account-details,
+.company-details {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.footer-column h3,
+.help-center h3,
+.account-details h3,
+.company-details h3 {
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 16px;
+}
+.social-icons:hover{
+  cursor: pointer;
+}
+
+.social-icons .icon {
+  color: #fff;
+}
+
+.help-center p,
+.account-details p,
+.company-details p {
+  margin: 5px 0;
+}
+.help-center p,
+.account-details p,
+.company-details p{
+  cursor: pointer;
+}
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-column,
+  .help-center,
+  .account-details,
+  .company-details {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+
+
+/* Define animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Apply animation to element */
+.fade-in-element {
+  animation: fadeIn 1s ease;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .item {
+    /* Adjust the layout for smaller devices */
+    padding: 5px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .item-list {
+    grid-template-columns: repeat(3, 1fr); /* Display 3 items per row for larger screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .item-list {
+    grid-template-columns: repeat(2, 1fr); /* Display 2 items per row for medium screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .item-list {
+    grid-template-columns: repeat(1, 1fr); /* Display 1 item per row for smaller screens */
+  }
+}

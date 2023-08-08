@@ -1,0 +1,12 @@
+table{
+    border-style:solid;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(203, 211, 208);
+    border-radius: 1pc;
+    
+  }
+  tr input{
+    align-items: center;
+    padding: 5px;
+  }

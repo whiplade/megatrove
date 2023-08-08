@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "johndoe@gmail.com",
+      "phone": "0723122877",
+      "password": "123456"
+    },
+    {
+      "email": "davidjames@gmail.com",
+      "phone": "0712345678",
+      "password": "dfghjk",
+      "id": 2
+    },
+    {
+      "email": "davidjames@gmail.com",
+      "phone": "0712345678",
+      "password": "dfghjk",
+      "id": 3
+    },
+    {
+      "first_name": "simon ",
+      "last_name": "kamau",
+      "email": "kamausimon@gmail.com",
+      "password": "simon123",
+      "id": 4
+    },
+    {
+      "first_name": "dennis",
+      "last_name": "waiyaki",
+      "email": "dennis@gmail.com",
+      "password": "123456",
+      "id": 5
+    },
+    {
+      "first_name": "hamiel",
+      "last_name": "jones",
+      "email": "hamiel@gmail.com",
+      "password": "123456",
+      "id": 6
+    },
+    {
+      "first_name": "moses",
+      "last_name": "kariuki",
+      "email": "kariukikamau10@gmail.com",
+      "password": "1234567",
+      "id": 7
+    },
+    {
+      "first_name": "nathan",
+      "last_name": "mawira",
+      "email": "nm@gmail.com",
+      "password": "12345",
+      "id": 11
+    },
+    {
+      "first_name": "moses",
+      "last_name": "kariuki",
+      "email": "kariukikamau10@gmail.com",
+      "password": "123456",
+      "id": 12
+    }
+  ]
+}
